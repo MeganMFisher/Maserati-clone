@@ -3,12 +3,44 @@
 nav {
     height: 90px;
     width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .nav-hamburger {
-    width: 20px;
+    width: 100px;
+    height: 90px;
+    margin-right: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-hamburger img {
+    width: 22px;
     height: 20px;
+}
+
+.mainCarImg {
+    background-size: cover;
+    margin-top: 90px;
+    height: 235px;
+    width: 100%;
+}
+
+.mainCarInfo {
+    width: 100%;
+    height: 202px;
+    
 }
