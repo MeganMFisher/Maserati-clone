@@ -1,0 +1,14 @@
+
+
+nav {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-hamburger {
+    width: 20px;
+    height: 20px;
+}
