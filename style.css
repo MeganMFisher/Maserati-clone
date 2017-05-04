@@ -46,6 +46,17 @@ nav {
     
 }
 
-img {
+.carModels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    height: 290px;
+}
+
+.carModels img {
+    width: 265px;
+    height: 135px;
+    margin-top: 20px;
 }
